@@ -1,18 +1,18 @@
-# BookBot 🚀
+# BookBot
 
 **BookBot** is a small CLI project from a Boot.dev exercise that analyzes a plain-text book and prints a concise report:
 
 - total word count
 - per-character frequency (lowercased), sorted from most to least common
 
-## Features ✅
+## Features
 
 - Read a book from `books/frankenstein.txt` (or another text file)
 - Count words and characters
 - Print a formatted report showing word count and the most common characters
 - No external dependencies — pure Python
 
-## Quickstart 🔧
+## Quickstart
 
 1. Ensure you have Python 3 installed.
 2. From the project root, run:
@@ -36,7 +36,7 @@ a: 25894
 ============= END ===============
 ```
 
-## Project layout 🗂️
+## Project layout
 
 - `main.py` — CLI entrypoint, orchestrates reading, counting and printing the report
 - `stats.py` — pure functions:
@@ -47,7 +47,7 @@ a: 25894
   - `sort_dict(char_counts: dict) -> list` (returns list of `{"char":..., "num":...}` sorted by `num` desc)
 - `books/frankenstein.txt` — sample book used for the exercise
 
-## Tests 🧪
+## Tests
 
 This project includes CLI tests used by the Boot.dev environment. Run a test with the provided test id:
 
